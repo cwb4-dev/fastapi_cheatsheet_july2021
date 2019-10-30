@@ -14,12 +14,12 @@ Classic repository question:
 
 > Q: What ? You can do that ? You're insane dude my consumers won't cope with multiple answers, status codes, I'm glad it exists but well, let's say I just want to customize the description for the default status code of that endpoint.
 
-> A: Ok there is a `responses` kwargs in the decorator, that's for the multiple answers
+> A: Ok there is a `responses` kwargs in the decorator, that's for the multiple answers.
 Now for the default status code there is the `response_description` kwarg
 
 Or you could do:
 
-> Check the yellow box with black outline on the [2nd image](https://gitlab.com/euri10/fastapi_cheatsheet/raw/master/FastAPI_cheatsheet_general_endpoint.png), it's how you can do that.
+> Check the yellow box with black outline on the [2nd image](https://gitlab.com/euri10/fastapi_cheatsheet/raw/master/FastAPI_cheatsheet_general_endpoint.png), that's how you can do that.
 
 ## FastAPI title, description
 Generated using LucidChart, save as png with transparent background, 300dpi
@@ -33,10 +33,9 @@ https://www.lucidchart.com/invitations/accept/b36921b1-7ffc-47bd-8487-fb2ca40e1e
 
 ## FastAPI general swagger endpoint description
 
-You can comment [here](https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
-), 1st image, boxes with black outline shows some general endpoints cusomization possible:
+You can comment [here](https://drive.google.com/file/d/1xCYkcK8YI2zXwzi97XVeegsoVFa0feQq/view?usp=sharing), boxes with black outline shows some general endpoints cusomization possible:
 
-![General endpoint](FastAPI_cheatsheet_general_endpoint.png)
+![General endpoint](fastapi_cheatsheet_general_endpoint.png)
 
 
 
