@@ -19,7 +19,7 @@ Now for the default status code there is the `response_description` kwarg
 
 Or you could do:
 
-> Check the yellow box with black outline on the [2nd image](https://gitlab.com/euri10/fastapi_cheatsheet/raw/master/FastAPI_cheatsheet_general_endpoint.png), that's how you can do that.
+> Check the yellow box with black outline on the [2nd image](https://gitlab.com/euri10/fastapi_cheatsheet/raw/master/fastapi_cheatsheet_general_endpoint.png), that's how you can do that.
 
 ## FastAPI title, description
 Generated using LucidChart, save as png with transparent background, 300dpi
