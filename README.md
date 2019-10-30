@@ -21,14 +21,19 @@ Or you could do:
 
 > Check the yellow box with black outline on the [2nd image](https://gitlab.com/euri10/fastapi_cheatsheet/raw/master/fastapi_cheatsheet_general_endpoint.png), that's how you can do that.
 
-## FastAPI title, description
-Generated using LucidChart, save as png with transparent background, 300dpi
+## Tools used
 
-You can comment here:
+Generated using draw.io, links for each graph is in the description below.
 
-https://www.lucidchart.com/invitations/accept/b36921b1-7ffc-47bd-8487-fb2ca40e1e7e
+Saved as png with transparent background, 300dpi.
 
-![Title and descriptions of API](FastAPI_cheatsheet_main.png)
+I'm no design wizard, every comment, PR is more than welcome.
+
+## FastAPI object customized, title, description
+
+You can <span style="color:#00CC00">comment</span> [here](https://drive.google.com/file/d/1wh2uK3YYtC50wncQuLnHNNdVeRFVaXn6/view?usp=sharing)
+
+![Title and descriptions of API](fastapi_cheatsheet_main.png)
 
 
 ## FastAPI general swagger endpoint description
