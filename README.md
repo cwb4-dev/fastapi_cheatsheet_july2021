@@ -53,8 +53,9 @@ You can comment [here](https://drive.google.com/file/d/1DkJuYFjk4kPSO3Y8EfXCIrhG
 
 ## FastAPI query operations
 
-to be done
+You can comment [here](https://drive.google.com/file/d/1sylWpYpi91ub0D7mEsXHzy7kol4S0VYL/view?usp=sharing) boxes with blue outline shows how query operations parameters are represented in swagger given the code:
 
+![Query operations](fastapi_cheatsheet_query.png)
 
 
 ## notes to self while doing this on potentially simplifying usage
