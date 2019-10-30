@@ -18,7 +18,7 @@ You can comment here:
 
 https://www.lucidchart.com/invitations/accept/b36921b1-7ffc-47bd-8487-fb2ca40e1e7e
 
-![Title and descriptions of API](/home/lotso/PycharmProjects/fastapi_cheatsheet/FastAPI_cheatsheet_main.png)
+![Title and descriptions of API](FastAPI_cheatsheet_main.png)
 
 
 # FastAPI path and query operations
@@ -27,4 +27,4 @@ You can comment here:
 
 https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
 
-!["Path and query operations"](/home/lotso/PycharmProjects/fastapi_cheatsheet/FastAPI_cheatsheet_path_query.png)
+!["Path and query operations"](FastAPI_cheatsheet_path_query.png)
