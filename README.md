@@ -23,9 +23,8 @@ https://www.lucidchart.com/invitations/accept/b36921b1-7ffc-47bd-8487-fb2ca40e1e
 
 # FastAPI general swagger endpoint description
 
-You can comment here, 1st image, boxes with black outline:
-
-https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
+You can comment [here](https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
+), 1st image, boxes with black outline shows some general endpoints cusomization possible:
 
 ![General endpoint](FastAPI_cheatsheet_general_endpoint.png)
 
@@ -33,11 +32,10 @@ https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f
 
 # FastAPI path operations
 
-You can comment here, 2nd image, boxes with red outline:
+You can comment [here](https://drive.google.com/file/d/1DkJuYFjk4kPSO3Y8EfXCIrhGJOwE-CsZ/view?usp=sharing)
+), 2nd image, boxes with red outline shows how path operations parameters are represented in swagger given some code:
 
-https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
-
-![Path operations](FastAPI_cheatsheet_path.png)
+![Path operations](fastapi_cheatsheet_path.png)
 
 
 # FastAPI query operations
