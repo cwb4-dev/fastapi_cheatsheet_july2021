@@ -31,7 +31,7 @@ I'm no design wizard, every comment, PR is more than welcome.
 
 ## FastAPI object customized, title, description
 
-You can <span style="color:#00CC00">comment</span> [here](https://drive.google.com/file/d/1wh2uK3YYtC50wncQuLnHNNdVeRFVaXn6/view?usp=sharing)
+You can comment [here](https://drive.google.com/file/d/1wh2uK3YYtC50wncQuLnHNNdVeRFVaXn6/view?usp=sharing)
 
 ![Title and descriptions of API](fastapi_cheatsheet_main.png)
 
