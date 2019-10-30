@@ -3,12 +3,11 @@ from enum import Enum
 import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
-from starlette.status import HTTP_201_CREATED
+from starlette.status import HTTP_200_OK
 
 from customized import fastapi_title, fastapi_description, fastapi_version, \
     fastapi_openapi_url, fastapi_docs_url, fastapi_redoc_url, \
-    decorator_response_description, decorator_summary, decorator_description, \
-    decorator_tags, decorator_responses, decorator_operation_id
+    decorator_response_description, decorator_summary,decorator_tags, decorator_responses, decorator_operation_id, decorator_name
 
 
 class Item(BaseModel):
@@ -25,22 +24,24 @@ app = FastAPI(title=fastapi_title,
               )
 
 
-class ModelName(str, Enum):
-    alexnet = "alexnet"
-    resnet = "resnet"
-    lenet = "lenet"
+class PathModel(str, Enum):
+    enum1 = "you"
+    enum2 = "love"
+    enum3 = "enums"
 
 
-@app.get("/get_endpoint_showing_path_params/{path_id}/{model_name}",
-         # status_code=HTTP_201_CREATED,
-         # response_description=decorator_response_description,
-         # summary=decorator_summary,
+@app.get("/get_endpoint_showing_path_params/{path_id}/{path_model}",
+         status_code=HTTP_200_OK,
+         response_description=decorator_response_description,
+         summary=decorator_summary,
          # description=decorator_description,
-         # responses=decorator_responses,
+         responses=decorator_responses,
          operation_id=decorator_operation_id,
-         # tags=decorator_tags,
+         tags=decorator_tags,
+         name=decorator_name,  # no idea what it does
+         include_in_schema=True  # set to False and the encpoint disappears from documentation
          )
-async def a_get_function(path_id: int, model_name: ModelName):
+async def a_get_function(path_id: int, path_model: PathModel, query_str_no_default: str, query_int: int = 0):
     """
     Use either a docstring either description kwargs
     in the decorator, if both are set the decorator kwarg takes precedance
