@@ -27,4 +27,4 @@ You can comment here:
 
 https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
 
-!["Path and query operations"](FastAPI_cheatsheet_path_query.png)
+![Path and query operations](FastAPI_cheatsheet_path_query.png)
