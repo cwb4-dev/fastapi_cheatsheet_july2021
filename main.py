@@ -7,7 +7,9 @@ from starlette.status import HTTP_201_CREATED
 
 from customized import fastapi_title, fastapi_description, fastapi_version, \
     fastapi_openapi_url, fastapi_docs_url, fastapi_redoc_url, \
-    decorator_response_description, decorator_summary, decorator_description
+    decorator_response_description, decorator_summary, decorator_description, \
+    decorator_tags, decorator_responses, decorator_operation_id
+
 
 class Item(BaseModel):
     """This is an item"""
@@ -28,12 +30,16 @@ class ModelName(str, Enum):
     resnet = "resnet"
     lenet = "lenet"
 
+
 @app.get("/get_endpoint_showing_path_params/{path_id}/{model_name}",
-         status_code=HTTP_201_CREATED,
-         response_description=decorator_response_description,
-         summary=decorator_summary,
-         # description=decorator_description
-)
+         # status_code=HTTP_201_CREATED,
+         # response_description=decorator_response_description,
+         # summary=decorator_summary,
+         # description=decorator_description,
+         # responses=decorator_responses,
+         operation_id=decorator_operation_id,
+         # tags=decorator_tags,
+         )
 async def a_get_function(path_id: int, model_name: ModelName):
     """
     Use either a docstring either description kwargs

@@ -1,4 +1,3 @@
-
 # FastAPI object customization
 fastapi_title = "fastapi cheatsheet"
 fastapi_description = "FastAPI cheatseheet helps you visualizse what part of python code corresponds to what part of swagger UI"
@@ -11,3 +10,11 @@ fastapi_redoc_url = "/custom_redoc"
 decorator_response_description = "Custom 201 message"
 decorator_summary = "Custom summary, if not used it will print the function name `a_get_function` capitalized with underscores switchd to spaces ie here A Get Function"
 decorator_description = "Custom endpoint description"
+
+decorator_responses = {
+    200: {
+        "content": {"image/png": {}},
+        "description": "Return the JSON item or an image.",
+    }, }
+decorator_operation_id = "Custom operation id"
+decorator_tags = ["Mytag1"]
