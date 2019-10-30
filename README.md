@@ -21,10 +21,25 @@ https://www.lucidchart.com/invitations/accept/b36921b1-7ffc-47bd-8487-fb2ca40e1e
 ![Title and descriptions of API](FastAPI_cheatsheet_main.png)
 
 
-# FastAPI path and query operations
+# FastAPI general swagger endpoint description
 
 You can comment here:
 
 https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
 
-![Path and query operations](FastAPI_cheatsheet_path_query.png)
+![General endpoint](FastAPI_cheatsheet_general_enpoint.png)
+
+
+
+# FastAPI path operations
+
+You can comment here:
+
+https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
+
+![Path operations](FastAPI_cheatsheet_path.png)
+
+
+# FastAPI query operations
+
+to be done
