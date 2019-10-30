@@ -23,17 +23,17 @@ https://www.lucidchart.com/invitations/accept/b36921b1-7ffc-47bd-8487-fb2ca40e1e
 
 # FastAPI general swagger endpoint description
 
-You can comment here:
+You can comment here, 1st image, boxes with black outline:
 
 https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
 
-![General endpoint](FastAPI_cheatsheet_general_enpoint.png)
+![General endpoint](FastAPI_cheatsheet_general_endpoint.png)
 
 
 
 # FastAPI path operations
 
-You can comment here:
+You can comment here, 2nd image, boxes with red outline:
 
 https://www.lucidchart.com/invitations/accept/eef8fb64-0a92-4c23-8d46-181532f41f96
 

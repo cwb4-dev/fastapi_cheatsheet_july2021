@@ -39,7 +39,7 @@ class PathModel(str, Enum):
          operation_id=decorator_operation_id,
          tags=decorator_tags,
          name=decorator_name,  # no idea what it does
-         include_in_schema=True  # set to False and the encpoint disappears from documentation
+         include_in_schema=True  # set to False and the endpoint disappears from documentation
          )
 async def a_get_function(path_id: int, path_model: PathModel, query_str_no_default: str, query_int: int = 0):
     """
