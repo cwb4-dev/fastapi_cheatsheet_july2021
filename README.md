@@ -15,7 +15,7 @@ Generated using LucidChart, save as png with transparent background, 300dpi
 
 You can comment here:
 
-https://www.lucidchart.com/invitations/accept/8a6a16f3-8c3e-4ed1-8f3f-7444e8f2a882
+https://www.lucidchart.com/invitations/accept/b36921b1-7ffc-47bd-8487-fb2ca40e1e7e
 
 ![alt text](/home/lotso/PycharmProjects/fastapi_cheatsheet/FastAPI_cheatsheet_1.png "Logo Title Text 1")
 
